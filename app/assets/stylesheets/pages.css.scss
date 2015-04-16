@@ -2,3 +2,44 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background-color: #F5F5F1;
+  }
+
+
+
+h1 {
+      color: yellow;
+      font-family: "Pacifico", arial;
+      font-size: 65px;
+    }
+
+.lead {
+  font-family: 'Helvetica Neue', Helvetica;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+}
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+
+/* background image */
+
+ 
+  background-image: url('https://dl.dropboxusercontent.com/s/6ugkdxqofth4ll8/resize25H.jpg');
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.v-center {
+  margin-top:8%;
+}
+  

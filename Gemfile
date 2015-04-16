@@ -14,9 +14,12 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+gem 'instagram'
 
 # not to be run in production
 gem 'better_errors', '~> 2.1.1', group: :development
+
+gem 'figaro'
 
 
 group :production do

@@ -1,2 +1,64 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container-full">
+
+      <div class="row">
+       
+        <div class="col-lg-12 text-center v-center">
+          
+          <h1><i class="fa fa-instagram"></i> SnapShot</h1>
+          <p class="lead"><b>find great images on Instagram!</b> </p>
+          
+          <br>
+          
+          <form class="col-lg-12">
+            <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
+              <input type="text" name="q" class="center-block form-control input-lg" title="Search Instagram photos." placeholder="Search Instagram Photos">
+              <span class="input-group-btn"><button class="btn btn-lg btn-success" type="submit">OK</button></span>
+            </div>
+          </form>
+        </div>
+        
+      </div> <!-- /row -->
+  
+      <div class="row">
+       
+        <div class="col-lg-12 text-center v-center" style="font-size:39pt;">
+          <a href="#"><i class="icon-google-plus"></i></a> <a href="#"><i class="icon-facebook"></i></a>  <a href="#"><i class="icon-twitter"></i></a> <a href="#"><i class="icon-github"></i></a> <a href="#"><i class="icon-pinterest"></i></a>
+        </div>
+      
+      </div>
+  
+    <br><br><br><br><br>
+
+</div> <!-- /container full -->
+
+<div class="container">
+  
+  <div class="row">
+      <% @search.each do |instagram| %>
+      <div class="col-md-4">
+         <div class="panel panel-primary">
+          <div class="panel-heading"><h3>Hello. <%= instagram.user.username %> </h3></div>
+        <div class="panel-body"><%= image_tag instagram.images.low_resolution.url %>
+      </div>
+       <div class="panel-footer"><p>Profile Picture. <%= image_tag instagram.user.profile_picture %> </p></div>
+      
+    </div>
+  </div>
+   
+    <% end %>
+</div>
+    
+        
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+    
