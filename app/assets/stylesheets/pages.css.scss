@@ -42,4 +42,75 @@ h1 {
 .v-center {
   margin-top:8%;
 }
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding-top: 20px;
+}
+
   
+
+  .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+
+
+ .follow-us-container
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .follow-us
+    {
+        font-size: 32px;
+        color: #777;
+    }
+
+    .social-icon
+    {
+        padding-top: 6px;
+        font-size: 16px;
+        text-align: center;
+        width: 32px;
+        height: 32px;
+        border: 2px solid #777;
+        border-radius: 50%;
+        color: #777;
+        margin: 5px;
+    }
+
+    a.social-icon:hover, a.social-icon:active, a.social-icon:focus
+    {
+        text-decoration: none;
+        color: #434343;
+        border-color: #434343;
+    }
+
+    .map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+
+    
